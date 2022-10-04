@@ -206,7 +206,6 @@ if __name__ == "__main__":
     except SyntaxError:
         print("推送消息失败，请检查配置文件格式是否正确")
         os.system("pause")
-        sys.exit(0)
  
     # 获取accessToken
     accessToken = get_access_token()
